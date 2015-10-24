@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppBaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/tranfer</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">@drawable/tranfer</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="create_choose_time" parent="android:style/Theme.Holo.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@drawable/tranfer</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">@drawable/tranfer</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

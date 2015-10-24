@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- push -->
+    <string name="debug_parse_app_key">hyUjoxJfK9JwPLDVuyWu24PTJlzujfbFrNg8cw7y</string>
+    <string name="debug_parse_client_key">MJ1JVJyOOp5uO10LjnQcCiQbikgAGJlMxndWtSxe</string>
+    <string name="parse_app_key">dmAkVtqRiacrjo7XQx3IeUi0JEScm2VqHGYNJvjH</string>
+    <string name="parse_client_key">63n0mRjcm9yvQ3vCFuhejzIxOTQ6vk4HCRBdri1X</string>
+    <string name="app_name">Rogue Fitness</string>
+    <string name="img_example">http://vnpmanager.esy.es/example.png</string>
+    <string name="setting">Setting</string>
+    <string name="push_notifycation">Push Notifications</string>
+    <string name="default_store">Default Store</string>
+    <string name="choose_your_default_store_location">Choose a Default Store.</string>
+    <string name="location_rogue_usa">Rogue USA</string>
+    <string name="location_rogue_canada">Rogue Canada</string>
+    <string name="location_rogue_europe">Rogue Europe</string>
+    <string name="location_rogue_australia">Rogue Australia</string>
+    <string name="location_rogue_supply">Rogue Supply</string>
+    <string name="text_1">Track your Rogue Order from the moment we receive it to the moment you get it.</string>
+    <string name="text_2">Recently Tracked Orders</string>
+    <string name="remove_order">Do you want remove this order?</string>
+    <string name="text_3">How the Rogue\nShipping System Works!</string>
+    <string name="text_4"><b>Please note:</b> Detailed information is not available<br></br>for international Orders, standard sipping<br></br>information will be displayed.If you wish to use<br></br>our standard order tracking service, <a href="\">please clilck here.<href></href></a></string>
+    <string name="text_5">UPS Direct Ship</string>
+    <string name="text_6">Tracking </string>
+    <string name="text_7">Contact us if you have questions about your order.</string>
+    <string name="text_8">This inquiry is for\nOrder Number: %s</string>
+    <string name="text_9">nopaincrossfit@gmail.com</string>
+    <string name="text_10">Your Question</string>
+    <string name="text_11">Product Name</string>
+    <string name="text_12">SKU</string>
+    <string name="text_13">Qty</string>
+    <string name="text_14">Questions about your order?</string>
+    <string name="waitforadd">This function is in the process of development, please come back later.</string>
+    <string name="trackyourorder">Track Your Order</string>
+    <string name="error_email">This email format is not correct, Please check again.</string>
+    <string name="ok">OK</string>
+    <string name="order_header"></string>
+    <string name="text_15">This inquiry is for</string>
+    <string name="email">Email</string>
+    <string name="yourquestion">Your Question</string>
+    <string name="cancel">Cancel</string>
+    <string name="contactus_success_order_form">Thanks for submitting your inquiry for Order # %s. We will get back to you as soon as we can.</string>
+    <string name="peding_shipment">Pending Shipment</string>
+    <string name="received">Received</string>
+    <string name="processed">Processed</string>
+    <string name="packaged">Picked</string>
+    <string name="qualitychecked">Quality Checked</string>
+    <string name="shipped">Shipped</string>
+    <string name="delivered">Delivered</string>
+
+    <color name="order_prouct_1">#f1f1f1</color>
+    <color name="order_prouct_2">#ffffff</color>
+
+    <string name="error_load_order">Can not load this order.</string>
+    <string name="loading">Loading ...</string>
+    <string name="error_network">Can not connect to Internet.</string>
+    <string name="error_cannotfinditem">Can not connect to server.</string>
+    <string name="format_push_order">Have a change status of # %s. Do you want open this order.</string>
+    <string name="cannot_load_url_youtobe">Can not load Youtube. Please try again.</string>
+    <string name="settings">Settings</string>
+    <string name="you_need_close_setting">you need close setting.</string>
+
+    <!-- pushnotification -->
+    <string name="message_push_update_multiple_package" formatted="false">Your Order %s Has Been Updated.</string>
+    <string name="message_push_update_single_package" formatted="false">Your Order %s Has Been Updated To \'%s\'</string>
+    <string name="message_push_popup_title">Orders</string>
+    <!-- <string name="notificationtitle">Have a change status of order.</string> -->
+
+    <string name="error_contactus">Can not send contact us, please try again.</string>
+    <string name="error_input_order">Please Enter a Valid Order Number</string>
+    <string name="error_input_order_alpha">Please use only letters (a&#8211;z or A&#8211;Z) or numbers (0&#8211;9) only in this field. No spaces or other characters are allowed</string>
+    <string name="error_input_email">Please Enter a Valid Email Addresss</string>
+    <string name="error_input_question">Please Enter a Valid Question</string>
+    <string name="need_you_tube">You need install Youtube.</string>
+    <string name="error_have_not_web">Have not appilcation for open link %s.</string>
+
+</resources>

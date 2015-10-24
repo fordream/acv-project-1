@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_146dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_30dp"
+        android:paddingRight="@dimen/dimen_30dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_67dp" >
+
+            <z.base.text.BoldTextView
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:singleLine="true"
+                android:text="@string/text_14"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="@dimen/dimen_11dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/order_footer_contactus"
+                android:layout_width="@dimen/dimen_95dp"
+                android:layout_height="@dimen/dimen_27dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rogue_button_contactus" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/order_footer_trackaneworder"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rogue_button_tracknewordersmall" />
+    </LinearLayout>
+
+</LinearLayout>

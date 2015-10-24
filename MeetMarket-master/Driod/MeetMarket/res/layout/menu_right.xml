@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.acv.meetmarket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/menu_right_close"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/lx"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lx"
+            android:layout_width="@dimen/dimen_270dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#ebebeb"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_85dp" >
+
+                <ImageView
+                    android:id="@+id/menu_icon_bg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:alpha="0.4"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_10dp" >
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dimen_65dp"
+                        android:layout_height="@dimen/dimen_65dp" >
+
+                        <ImageView
+                            android:id="@+id/menu_icon"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="@dimen/dimen_1dp"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/mm_mainmenu_profileimage_stroke" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical" >
+
+                        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                            android:id="@+id/menu_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/dimen_10dp"
+                            android:paddingRight="@dimen/dimen_0dp"
+                            android:singleLine="true"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/dimen_17dp"
+                            custom:txtFont="light" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/menu_rightlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0px"
+                android:listSelector="@drawable/tranfer" >
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

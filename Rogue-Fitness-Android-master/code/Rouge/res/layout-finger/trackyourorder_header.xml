@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_30dp"
+            android:paddingRight="@dimen/dimen_30dp"
+            android:paddingTop="@dimen/dimen_30dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="@dimen/dimen_220dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:gravity="center_vertical"
+                    android:text="Track Your Order"
+                    android:textSize="@dimen/dimen_15dp"
+                    android:textStyle="bold" />
+                <!-- android:src="@drawable/rogue_icon_help" -->
+
+                <ImageView
+                    android:id="@+id/img_1"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:padding="@dimen/dimen_5dp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <z.base.text.NormalTextView
+                    android:id="@+id/trackyourorder_header_text_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_20dp"
+                    android:layout_toLeftOf="@+id/img_2"
+                    android:text="@string/text_1"
+                    android:textColor="#1f1f1f"
+                    android:textColorHighlight="#1f1f1f"
+                    android:textColorLink="#1f1f1f"
+                    android:textSize="@dimen/dimen_12dp" />
+
+                <ImageView
+                    android:id="@+id/img_2"
+                    android:layout_width="@dimen/dimen_15dp"
+                    android:layout_height="@dimen/dimen_15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/dimen_17dp"
+                    android:padding="@dimen/dimen_2dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rogue_icon_learnmore"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="#ededed"
+                android:singleLine="true"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" >
+
+                <z.base.text.BoldTextView
+                    android:id="@+id/edt_trackorder_header_order_number_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#ededed"
+                    android:capitalize="words"
+                    android:ems="10"
+                    android:gravity="center|left"
+                    android:hint="Order Number"
+                    android:inputType="textCapCharacters|textCapWords|textCapSentences"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_10dp"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="@dimen/dimen_14dp" >
+                </z.base.text.BoldTextView>
+
+                <z.base.text.BoldEditextView
+                    android:id="@+id/edt_trackorder_header_order_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent"
+                    android:capitalize="words"
+                    android:ems="10"
+                    android:hint="Order Number"
+                    android:inputType="textCapCharacters|textCapWords|textCapSentences"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_10dp"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/transparent"
+                    android:textColorHint="@android:color/transparent"
+                    android:textSize="@dimen/dimen_14dp" >
+                </z.base.text.BoldEditextView>
+            </RelativeLayout>
+
+            <z.base.text.NormalTextView
+                android:id="@+id/txt_error_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_3dp"
+                android:paddingLeft="@dimen/dimen_20dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:text="@string/error_input_order"
+                android:textColor="#ec0f20"
+                android:textColorHint="#ec0f20"
+                android:textSize="@dimen/dimen_12dp"
+                android:visibility="gone" />
+
+            <z.base.text.BoldEditextView
+                android:id="@+id/edt_trackorder_header_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="#ededed"
+                android:ems="10"
+                android:hint="Email Address"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="@dimen/dimen_14dp" />
+
+            <z.base.text.NormalTextView
+                android:id="@+id/txt_error_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:layout_marginTop="@dimen/dimen_3dp"
+                android:paddingLeft="@dimen/dimen_20dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:text="@string/error_input_email"
+                android:textColor="#ec0f20"
+                android:textColorHint="#ec0f20"
+                android:textSize="@dimen/dimen_12dp"
+                android:visibility="gone" />
+            <!-- android:background="@drawable/rogue_button_track" -->
+
+            <z.base.text.NormalTextView
+                 android:layout_marginTop="@dimen/dimen_10dp"
+                android:id="@+id/edt_trackorder_header_btn_track"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_46dp"
+                android:background="@drawable/rogue_button_trackordersmall"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <z.base.text.BoldTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_35dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dimen_30dp"
+            android:paddingRight="@dimen/dimen_30dp"
+            android:text="@string/text_2"
+            android:textSize="@dimen/dimen_15dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#d4d4d4" />
+    </LinearLayout>
+
+</LinearLayout>

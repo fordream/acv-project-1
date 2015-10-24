@@ -1,0 +1,74 @@
+<!-- android:background="@drawable/help_bg" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <!-- android:src="@drawable/rogue_icon_help" -->
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_40dp"
+        android:layout_marginRight="@dimen/dimen_30dp"
+        android:layout_marginTop="@dimen/dimen_45dp"
+        android:padding="@dimen/dimen_5dp" />
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_369dp"
+        android:layout_marginLeft="@dimen/dimen_11dp"
+        android:layout_marginRight="@dimen/dimen_11dp"
+        android:background="@drawable/rogue_popup_help"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_18dp" >
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_77dp"
+            android:gravity="center"
+            android:paddingTop="@dimen/dimen_5dp"
+            android:text="@string/text_3"
+            android:textSize="@dimen/dimen_17dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@+id/text_2"
+                android:layout_marginBottom="@dimen/dimen_5dp"
+                android:layout_marginTop="@dimen/dimen_15dp" >
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/youtubeplayerview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen_149dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:scrollbarThumbVertical="@drawable/tranfer"
+                    android:scrollbarTrackHorizontal="@drawable/tranfer"
+                    android:scrollbars="none" />
+                <!-- android:background="#f2f0f0" -->
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/text_4"
+                android:textColorHighlight="#4eba5d"
+                android:textColorLink="#37b349"
+                android:textSize="@dimen/dimen_10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <view
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        class="eu.janmuller.android.simplecropimage.CropImageView"
+        android:background="@drawable/new_dichvu_bg" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/discard"
+            android:layout_width="@dimen/dimen_90dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/dangky_x1"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_12dp" />
+
+        <ImageButton
+            android:id="@+id/rotateLeft"
+            android:layout_width="@dimen/dimen_32dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_toRightOf="@id/discard"
+            android:background="@drawable/dangky_x1"
+            android:padding="@dimen/dimen_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rotate_left" />
+
+        <ImageButton
+            android:id="@+id/rotateRight"
+            android:layout_width="@dimen/dimen_32dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_toRightOf="@id/rotateLeft"
+            android:background="@drawable/dangky_x1"
+            android:padding="@dimen/dimen_5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rotate_right" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="@dimen/dimen_90dp"
+            android:layout_height="@dimen/dimen_32dp"
+            android:layout_marginLeft="@dimen/dimen_12dp"
+            android:layout_toRightOf="@id/rotateRight"
+            android:background="@drawable/dangky_x2"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_12dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

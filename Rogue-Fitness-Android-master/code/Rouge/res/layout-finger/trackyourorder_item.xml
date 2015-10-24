@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_2"
+        android:background="#cf4949"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- android:src="@drawable/rogue_button_recentlytrackeddelete_iphone4_5" -->
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="@dimen/dimen_45dp"
+            android:layout_height="@dimen/dimen_45dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rogue_previouslytrackedorders_delete"
+            android:layout_centerVertical="true" />
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_45dp"
+            android:background="#f1f1f1" >
+
+            <z.base.text.BoldTextView
+                android:id="@+id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/img_1"
+                android:ems="10"
+                android:paddingLeft="@dimen/dimen_30dp"
+                android:paddingRight="@dimen/dimen_30dp"
+                android:singleLine="true"
+                android:text="xxx"
+                android:textColor="#555555"
+                android:textSize="@dimen/dimen_14dp"
+                android:textStyle="bold" >
+            </z.base.text.BoldTextView>
+            <!-- android:src="@drawable/rogue_icon_list_rightarrow" -->
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="@dimen/dimen_9dp"
+                android:layout_height="@dimen/dimen_14dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dimen_30dp"
+                android:src="@drawable/rogue_icon_settingsarrow" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#d8d8d8" />
+
+</LinearLayout>

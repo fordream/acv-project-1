@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.acv.meetmarket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen_5dp"
+    android:paddingRight="@dimen/dimen_5dp"
+    android:paddingTop="@dimen/dimen_3dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_94dp"
+        android:background="#ffffff" >
+
+        <ImageView
+            android:id="@+id/newhome_icon"
+            android:layout_width="@dimen/dimen_84dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mm_dashboard_meeting_iconcreate" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_10dp" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/new_home_item_text_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/text_5"
+                android:textColor="#323030"
+                android:textSize="@dimen/dimen_17dp"
+                custom:txtFont="light" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/new_home_item_text_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/text_1"
+                android:textColor="#323030"
+                android:textSize="@dimen/dimen_13dp"
+                android:visibility="gone"
+                custom:txtFont="light" />
+
+            <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                android:id="@+id/new_home_item_text_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_2dp"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="@string/text_6"
+                android:textColor="#323030"
+                android:textSize="@dimen/dimen_13dp"
+                custom:txtFont="light" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- parse -->
+    <string name="parse_app_key">r3UCEs8ZzlOAj1gQZDWcBLb2zockjgXu1BJwrcSP</string>
+    <string name="parse_client_key">l41MTeMfPDQsyLyJnbRdwZhPaD5DVxI5CHklqcGC</string>
+    <string name="app_name">Meet Market</string>
+    <string name="ok">OK</string>
+    <string name="error_network"></string>
+    <string name="error_cannotfinditem"></string>
+    <string name="error_search_location">Have not data.</string>
+    <string name="error_login">Can not login, please try again.</string>
+    <string name="error_choose_location">You need choose a location.</string>
+    <string name="loading"></string>
+    <string name="text_1">We won\'t touch your profile, we promise...</string>
+    <string name="text_2">Set meetings where and when you want\nand send invites to people in your\nbusiness circle</string>
+    <string name="text_3">Receive meeting invites,\ndecide if you want to meet or not\nwith complete anonymity</string>
+    <string name="text_4">Find people with similar business\ninterests and expand you cricle</string>
+    <string name="text_5">Create New Meeting</string>
+    <string name="text_6">With people in your circle</string>
+    <string name="text_7">Schedule</string>
+    <string name="text_8">Create new meeting</string>
+    <string name="text_9">Add new contacts</string>
+    <string name="text_10">Settings</string>
+    <string name="text_11">Tap to\nchange</string>
+    <string name="close">Close</string>
+    <string name="f36_infor" formatted="false">Is free to meet for %s\naround\n%s\nbetween\n%s</string>
+    <string name="f36_infor_ok">I am interested</string>
+    <string name="f36_infor_cancel">No Thanks</string>
+    <string name="f36_infor_comfirm_ok">Ok</string>
+    <!-- color -->
+
+    <color name="app_bacground">#ffffff</color>
+    <color name="tranfer">#00000000</color>
+
+    <string name="text_12">About you</string>
+    <string name="text_13">0 Characters Remaining</string>
+    <string name="text_14">Your Business interests</string>
+    <string name="text_15">Create Meeting</string>
+    <string name="text_16">Date</string>
+    <string name="text_17">I\'m free to meet from</string>
+    <string name="text_18">Until</string>
+    <string name="text_19">Around</string>
+    <string name="text_20">Send Invites</string>
+    <string name="text_21">Cancel</string>
+    <string name="text_22">Choose</string>
+    <string name="text_23">This will send a meeting invite to your contact list, do you want to continue?</string>
+    <string name="text_24">Today</string>
+    <string name="title_choose_time">Choose time</string>
+    <!--  -->
+    <string name="saving_image">Lưu hình ảnh.</string>
+    <string name="preparing_card">Chuẩn bị thẻ nhớ.</string>
+    <string name="no_storage_card">Không có thẻ nhớ.</string>
+    <string name="not_enough_space">Không đủ dung lượng bộ nhớ.</string>
+    <string name="chupanhmoi">Camera</string>
+    <string name="chonanhcosan">Gallery</string>
+    <string name="message_check_remove_skill">Do you want remove this skill?</string>
+    <string name="push_message">New meeting Invite !</string>
+
+</resources>

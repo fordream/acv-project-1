@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.acv.meetmarket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_0dp"
+            android:paddingRight="@dimen/dimen_30dp" >
+
+            <org.com.atmarkcafe.sky.customviews.charting.MEditText
+                android:id="@+id/profile_skill_item_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#d6402b"
+                android:maxWidth="@dimen/dimen_200dp"
+                android:minWidth="@dimen/dimen_50dp"
+                android:padding="@dimen/dimen_5dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dimen_13dp" >
+
+                <requestFocus />
+            </org.com.atmarkcafe.sky.customviews.charting.MEditText>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/profile_skill_img"
+            android:layout_width="@dimen/dimen_30dp"
+            android:layout_height="@dimen/dimen_30dp"
+            android:layout_alignRight="@+id/rli"
+            android:padding="@dimen/dimen_3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mm_editprofile_icon_edit" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_15dp" />
+
+</LinearLayout>

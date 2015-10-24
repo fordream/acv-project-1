@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dimen_10dp"
+    android:paddingTop="@dimen/dimen_5dp" >
+
+    <TextView
+        android:id="@+id/push_title"
+        android:text="@string/message_push_popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/push_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10dp"
+        android:textSize="@dimen/dimen_15dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50dp"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_5dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/push_btn_cancel"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:text="@string/cancel"
+            android:textSize="@dimen/dimen_13dp" />
+
+        <Button
+            android:id="@+id/push_btn_ok"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="@dimen/dimen_100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textSize="@dimen/dimen_13dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

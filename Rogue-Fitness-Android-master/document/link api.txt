@@ -1,0 +1,29 @@
+https://trello-attachments.s3.amazonaws.com/54b49c27f873a7e6f31ae2f2/54ebdd761caa85f49f44a756/48260174af5af8c4d9a92202eb6c23db/Re__Rogue_API.pdf
+
+here are most of the screen designs
+the user is able to enter their email address and order number into the app
+those details are validated via an API that then provides the app with the order details
+including the products they ordered, quantity, product number, courier (DHL, UPS etc) as well as delivery tracking info
+it also shows the current stage that the order is in via the API such as "recieved", "Processed", "delivered" etc.
+the user is also able to send a contact request across to the company via a contact form. 
+The user fills in their question and details and the data is submitted to an API that sends the info back to the company
+on the main home screen there is a product feed
+products are recieved via an API including product images, URL etc.
+the products are displayed in a vertical scroll view - user taps a product and they are taken to a URL in the phones default web browser
+the user is able to change the default store country location
+when the user changes this the app will recieve a different product feed from the API and will query a different order details feed in the API
+the user is able to recieve push notifications when the status of their order changes
+lastly, the app must both online and offline
+obvuiously if its offline it cant query the APIs for new infomation however the user should be able to view data that has already been synced down to the device and navigate around the app
+with the data sync
+specifically for the product feed
+the app should only download new/updated info since the previous sync
+this is determined via a "datemodified" field in the DB
+it should download new/updated data and store the data locally on the device
+if data is removed from the api the data should be removed from the app upon the next sync
+the app should be fully useable whilst data syncing is in progress
+oh and 1 more thing i forgot
+it should store previous orders the user has tracked
+so they can view previous order data at a later date
+thats pretty much it :)
+Jake is building the iOS version

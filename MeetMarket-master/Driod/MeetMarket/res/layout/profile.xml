@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.acv.meetmarket"
+    android:id="@+id/profile_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingRight="@dimen/dimen_10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="@dimen/dimen_86dp"
+                    android:layout_height="@dimen/dimen_86dp" >
+
+                    <ImageView
+                        android:id="@+id/profile_icon"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                       android:layout_margin="@dimen/dimen_1dp"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/mm_editprofile_imagestroke" />
+                </RelativeLayout>
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/text_11"
+                    android:textColor="#737272"
+                    android:textSize="@dimen/dimen_11dp"
+                    custom:txtFont="light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_86dp"
+                android:layout_marginLeft="@dimen/dimen_25dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="John jon"
+                    android:textColor="#d6402b"
+                    android:textSize="@dimen/dimen_16dp"
+                    android:textStyle="bold"
+                    custom:txtFont="bold" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/profile_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_15dp"
+                    android:singleLine="true"
+                    android:text="John jon"
+                    android:textColor="#323030"
+                    android:textSize="@dimen/dimen_11dp"
+                    android:textStyle="bold"
+                    custom:txtFont="bold" />
+
+                <org.com.atmarkcafe.sky.customviews.charting.MTextView
+                    android:id="@+id/profile_company_positon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="John jon"
+                    android:textColor="#323030"
+                    android:textSize="@dimen/dimen_11dp"
+                    custom:txtFont="light" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_25dp"
+            android:text="@string/text_12"
+            android:textColor="#737272"
+            android:textSize="@dimen/dimen_13dp"
+            custom:txtFont="light" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MEditText
+            android:id="@+id/profile_about_you"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_200dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:background="#ffffff"
+            android:gravity="top|left"
+            android:hint="@string/text_12"
+            android:maxLength="256"
+            android:padding="@dimen/dimen_10dp"
+            android:textColor="#737272"
+            android:textSize="@dimen/dimen_11dp"
+            custom:txtFont="light" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:id="@+id/profile_about_you_lenth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:gravity="right"
+            android:text="@string/text_13"
+            android:textColor="#d6402b"
+            android:textSize="@dimen/dimen_13dp"
+            custom:txtFont="light" />
+
+        <org.com.atmarkcafe.sky.customviews.charting.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:text="@string/text_14"
+            android:textColor="#737272"
+            android:textSize="@dimen/dimen_13dp"
+            custom:txtFont="light" />
+
+        <LinearLayout
+            android:id="@+id/profile_skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_3dp"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

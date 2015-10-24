@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_55dp"
+        android:background="@drawable/rogue_header"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!--  -->
+
+        <LinearLayout
+            android:id="@+id/header_control_left"
+            android:layout_width="@dimen/dimen_55dp"
+            android:layout_height="@dimen/dimen_55dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="@dimen/dimen_12dp"
+                android:layout_height="@dimen/dimen_19dp"
+                android:layout_marginLeft="@dimen/dimen_20dp"
+                android:background="@drawable/rogue_icon_back" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/header_control_right"
+            android:layout_width="@dimen/dimen_55dp"
+            android:layout_height="@dimen/dimen_55dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="0.03"
+            android:padding="@dimen/dimen_16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/xml_setting_btn" />
+
+        <TextView
+            android:id="@+id/text_logo"
+            android:layout_width="@dimen/dimen_166dp"
+            android:layout_height="@dimen/dimen_26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rogue_header_logo"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_23dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <z.base.text.BoldTextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen_17dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <com.acv.rouge.view.SettingView
+        android:id="@+id/settingview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.acv.rouge.view.SettingView>
+
+</RelativeLayout>

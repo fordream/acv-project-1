@@ -1,0 +1,21 @@
+http://www.roguefitness.com/shippingtracker/?order=USA338603&email=nopaincrossfit%40gmail.com
+http://www.roguefitness.com/shippingtracker/?order=USA438894&email=jacobjuhl%40e-isco.com
+http://www.roguefitness.com/shippingtracker/?order=USA428962&email=lawrencelee1911%40yahoo.com
+http://warmup.roguefitness.com/shippingtracker/api/getMassInfo?data%5BUS791701%5D=blake.n.shaycasteel%40gmail.com&data%5BUSA454188%5D=georgebuitrago%40gmail.com&token=7KAh3EPZqXWLxpqgKZ8PmVt
+http://warmup.roguefitness.com/shippingtracker/api/getInfoByNumberAndEmail?order_number=USA428962&email=lawrencelee1911@yahoo.com&token=7KAh3EPZqXWLxpqgKZ8PmVt
+http://warmup.roguefitness.com/shippingtracker/api/getMassInfo?data%5BUS791701%5D=blake.n.shaycasteel%40gmail.com&data%5BUSA454188%5D=georgebuitrago%40gmail.com&token=7KAh3EPZqXWLxpqgKZ8PmVt
+received
+processed
+packed
+quality
+shipped
+delivered
+
+
+
+token : 7KAh3EPZqXWLxpqgKZ8PmVt
+Login - webdev
+Password - roguedev
+
+login : rogue
+password: roguedev

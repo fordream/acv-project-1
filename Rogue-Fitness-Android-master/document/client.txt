@@ -1,0 +1,7 @@
+
+API for order status (used for push notifications) SS
+- http://warmup.roguefitness.com/shippingtracker/api/getMassInfo?data%5BUS791701%5D=blake.n.shaycasteel%40gmail.com&data%5BUSA454188%5D=georgebuitrago%40gmail.com&token=7KAh3EPZqXWLxpqgKZ8PmVt
+
+
+API : (TrackOrder Screen) Track your order
+http://warmup.roguefitness.com/shippingtracker/api/getInfoByNumberAndEmail?order_number=USA428962&email=lawrencelee1911@yahoo.com&token=7KAh3EPZqXWLxpqgKZ8PmVt

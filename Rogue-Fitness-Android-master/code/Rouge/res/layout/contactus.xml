@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_30dp"
+            android:paddingRight="@dimen/dimen_30dp"
+            android:paddingTop="@dimen/dimen_20dp" >
+
+            <z.base.text.BoldTextView
+                android:id="@+id/contactus_order_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:text="@string/text_8"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_14dp"
+                android:textStyle="bold" />
+
+            <z.base.text.BoldEditextView
+                android:id="@+id/contactus_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_36dp"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:hint="@string/email"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="@dimen/dimen_12dp" >
+            </z.base.text.BoldEditextView>
+
+            <z.base.text.NormalTextView
+                android:id="@+id/txt_error_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_3dp"
+                android:paddingLeft="@dimen/dimen_20dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:text="@string/error_input_email"
+                android:textColor="#ec0f20"
+                android:textColorHint="#ec0f20"
+                android:textSize="@dimen/dimen_12dp"
+                android:visibility="gone" />
+
+            <z.base.text.BoldEditextView
+                android:id="@+id/contactus_question"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_110dp"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:background="@android:color/white"
+                android:gravity="top|left"
+                android:hint="@string/yourquestion"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:textSize="@dimen/dimen_12dp" >
+            </z.base.text.BoldEditextView>
+
+            <z.base.text.NormalTextView
+                android:id="@+id/txt_error_qestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_3dp"
+                android:paddingLeft="@dimen/dimen_20dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:singleLine="true"
+                android:text="@string/error_input_question"
+                android:textColor="#ec0f20"
+                android:textColorHint="#ec0f20"
+                android:textSize="@dimen/dimen_12dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/contactus_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_45dp"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:background="@drawable/rogue_button_submit" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <z.base.text.NormalTextView
+                    android:id="@+id/contactus_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:hint="@string/cancel"
+                    android:paddingLeft="@dimen/dimen_10dp"
+                    android:paddingRight="@dimen/dimen_10dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"
+                    android:textSize="@dimen/dimen_12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactus_cuccess"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dimen_30dp"
+            android:paddingRight="@dimen/dimen_30dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="@dimen/dimen_37dp"
+                android:layout_height="@dimen/dimen_38dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:background="@drawable/rogue_icon_contactsuccess" />
+
+            <z.base.text.BoldTextView
+                android:id="@+id/contactus_comfirm_order_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:gravity="center"
+                android:text="@string/contactus_success_order_form"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/contactus_scuccess_go_back"
+                android:layout_width="@dimen/dimen_160dp"
+                android:layout_height="@dimen/dimen_27dp"
+                android:layout_marginBottom="@dimen/dimen_20dp"
+                android:background="@drawable/rogue_button_backtoorder" />
+
+            <ImageView
+                android:id="@+id/contactus_scuccess_track_new_order"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dimen_45dp"
+                android:background="@drawable/rogue_button_tracknewordersmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/control_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.acv.rouge.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.acv.rouge.view.HeaderView>
+
+</RelativeLayout>

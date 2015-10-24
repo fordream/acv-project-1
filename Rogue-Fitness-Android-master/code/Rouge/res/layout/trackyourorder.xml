@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header" >
+
+        <com.acv.rouge.view.TrackYourOrderListView
+            android:id="@+id/listtrackyourorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0px"
+            android:listSelector="@drawable/tranfer"
+            android:scrollbarThumbVertical="@drawable/tranfer"
+            android:scrollbarTrackHorizontal="@drawable/tranfer"
+            android:scrollbars="none" >
+        </com.acv.rouge.view.TrackYourOrderListView>
+
+        <LinearLayout
+            android:id="@+id/control_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+    <com.acv.rouge.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.acv.rouge.view.HeaderView>
+</RelativeLayout>

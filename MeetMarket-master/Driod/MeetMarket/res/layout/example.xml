@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.acv.meetmarket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <org.com.atmarkcafe.sky.customviews.charting.MTextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dimen_1dp"
+        android:layout_marginRight="@dimen/dimen_1dp"
+        android:gravity="center"
+        android:maxWidth="@dimen/dimen_200dp"
+        android:singleLine="true"
+        android:text="hiiiiiiiii"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dimen_16dp"
+     />
+
+</LinearLayout>

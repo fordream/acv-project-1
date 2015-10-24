@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_41dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_41dp"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_30dp"
+            android:paddingRight="@dimen/dimen_30dp" >
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="@dimen/dimen_44dp"
+                android:layout_height="@dimen/dimen_27dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/img_2"
+                android:scaleType="fitXY" />
+
+            <z.base.text.BoldTextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/dimen_0dp"
+                android:paddingRight="@dimen/dimen_0dp"
+                android:text="@string/choose_your_default_store_location"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_13dp"
+                android:textStyle="bold" />
+
+            <z.base.text.BoldTextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/dimen_5dp"
+                android:paddingRight="@dimen/dimen_0dp"
+                android:text="@string/choose_your_default_store_location"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/dimen_11dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="@dimen/dimen_9dp"
+            android:layout_height="@dimen/dimen_14dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_30dp"
+            android:background="@drawable/rogue_icon_settingsarrow"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#d2d2d2" />
+
+</LinearLayout>

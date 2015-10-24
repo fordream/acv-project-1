@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_45dp"
+            android:divider="@drawable/tranfer"
+            android:dividerHeight="0px"
+            android:listSelector="@drawable/tranfer"
+            android:scrollbarThumbVertical="@drawable/tranfer"
+            android:scrollbarTrackHorizontal="@drawable/tranfer"
+            android:scrollbars="none" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/text_tract_your_order"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_50dp"
+            android:background="@drawable/rogue_button_trackorderlarge"
+            android:gravity="center" />
+
+        <ProgressBar
+            android:id="@+id/home_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+		
+        <LinearLayout
+            android:id="@+id/control_pause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+		
+        <TextView
+            android:id="@+id/no_products"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="There are currently no products for this store."
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <com.acv.rouge.view.HeaderView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.acv.rouge.view.HeaderView>
+
+</RelativeLayout>

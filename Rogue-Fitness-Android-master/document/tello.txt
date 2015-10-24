@@ -1,0 +1,24 @@
+so let me explain how it works
+there are a number of columns
+inside those columns are what are called "cards"
+cards are essentially tasks
+when a task is ready for you it will be placed into the "dev backlog" column
+anything in that column is ready for you to work on
+when you start a task you need to drag the task you are working on into the "development" column
+this shows me the card/task that you are currently working on
+does that make sense?
+yeah correct
+once you have completed a task
+move it from the "development" column to the "internal testing" column
+once the card is in internal testing column
+we will review and test
+If there are fixes to be made we will move it backn into the fixes column with notes
+Please ignore cards in the design column
+im just setting some things up at the moment
+So dont start just yet
+But read through all the cards
+And see if they make sense
+Please note
+That currently there are iOs designs attached to the cards
+I shall invite you to dropbox
+here the android design files are
